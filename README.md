@@ -38,13 +38,10 @@ In order for us to retrieve logs from out honeypot VM, we will need to enable th
 To access our honeypot we will need to use the Remote Desktop Protocol (RDP) to remotely login to our deployed VM. After we gain access to the machine, we will become familiar with Windows Event Manager security logs, and ensure our VM can be pinged by remote scans across the internet.
 
 ### Log Generation
-
+We will need to generate logs containing geolocation information in order for attacks to be plotted on a world map. To accomplish this, we will be feeding the IP addresses found in the Windows Event Manager security logs to an IP Geolocation API. This will return the longitude and latitude associated with the IP. We will then use this along with security logs to generate custom logs.
 
 ### Log Extraction
-
-
-### Log Retrieval
-
+To extract the custom logs from our honeypot VM we will need to 
 
 ### SIEM Configuaton
 
