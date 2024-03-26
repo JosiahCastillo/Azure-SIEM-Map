@@ -22,4 +22,14 @@ The purpose of this lab is to deploy a honeypot in the Microsoft Azure cloudspac
 - Powershell
 - Secure Web Protocols
 - Windows Operating System
-- 
+
+## Key Steps
+
+### Deploying the Honeypot
+### Creating a Log Analytics Workspace
+### Enabling Log Retrieval
+### Accessing the Honeypot
+### Log Generation
+### Log Extraction
+### Log Retrieval
+### SIEM Configuaton
