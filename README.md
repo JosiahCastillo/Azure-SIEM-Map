@@ -32,11 +32,23 @@ To deploy a honeypot, we will need to deploy a virtual machine (VM) in an Azure 
 The Log Analytics Workspace allows us to query logs from any VMs we connect to it, and have them presented to us in an organized form on the Azure platform. Later, we can use this workspace to feed logs into our Security Information and Event Management (SIEM) system. 
 
 ### Enabling Log Retrieval
-In order for us to retrieve logs from out honeypot VM, we will need to enable this event collection feature through Microsoft Defender.
+In order for us to retrieve logs from out honeypot VM, we will need to enable this event collection feature through Microsoft Defender. This will require us to activate Microsoft Defender on our Azure subscription and enable the Server plan. This will give us the option to enable us to store all Windows security event data from our honeypot in our Log Analytics Workspace.
 
 ### Accessing the Honeypot
+To access our honeypot we will need to use the Remote Desktop Protocol (RDP) to remotely login to our deployed VM. After we gain access to the machine, we will become familiar with Windows Event Manager security logs, and ensure our VM can be pinged by remote scans across the internet.
+
 ### Log Generation
+
+
 ### Log Extraction
+
+
 ### Log Retrieval
+
+
 ### SIEM Configuaton
+
+
 ### Results
+
+
