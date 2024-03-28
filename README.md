@@ -62,12 +62,11 @@ To access our honeypot we will need to use the Remote Desktop Protocol (RDP) to 
 ![Accessing_the_Honeypot_5](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/d612cddf-3355-4284-9588-e603b6d79c22)
 ![Accessing_the_Honeypot_6](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/c757e51c-26f7-4c08-b4cc-d81d65ffc817)
 
-
 ### Step 5: Log Generation
 We will need to generate logs containing geolocation information in order for attacks to be plotted on a world map. To accomplish this, we will be feeding the IP addresses found in the Windows Event Manager security logs to an IP Geolocation API. This will return the longitude and latitude associated with the IP. We will then use this along with security logs to generate custom logs.
 
 ![Log_Generation_1](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/e9f7072d-028f-4fa5-883d-9f2beafefbdd)
-![Log_Generation_2](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/b5ecba98-0a59-48c8-9b07-4faa32829668)
+![Log_Generation_2](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/01be90e3-984e-4bb2-a89d-ed8e9841afd8)
 
 
 ### Step 6: Log Extraction
