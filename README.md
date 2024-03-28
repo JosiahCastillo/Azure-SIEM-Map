@@ -2,7 +2,7 @@
 
 ## Objective
 
-The purpose of this lab is to deploy a honeypot in the Microsoft Azure cloudspace and feed live international cyber attack data into a Securtiy Information and Event Management (SIEM) system.
+The purpose of this lab is to deploy a honeypot in the Microsoft Azure cloudspace and feed live international cyber attack data into a Securtiy Information and Event Management (SIEM) system. Once everything is deployed, the architecture should follow the diagram provided below.
 ![Azure Network Diagram](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/6cb0e379-2629-4bc1-bcd5-176284d53e4c)
 
 
