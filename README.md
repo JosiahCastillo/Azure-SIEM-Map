@@ -84,6 +84,11 @@ To extract the custom logs from our honeypot VM we will need to create a custom 
 ### Step 7: SIEM Configuaton
 To visualize our attack data on a world map we will be using the built-in map functionality in Azure's SIEM tool, Azure Sentinel. To accomplish this task, we will need to connect our Log Analytics Workspace to Azure Sentinel and use Kusto Query Language (KQL) to parse custom fields. Once parsed, we can configure the Sentinel Workbook to vizualize location data according to whatever fields we choose to extract.
 
+![SIEM_Configuration_1](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/035ea18d-80e0-4976-b3ab-0e3f9d4b8c5b)
+![SIEM_Configuration_2](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/9116e757-ec36-47ed-bbfd-3661c456a631)
+![SIEM_Configuration_3](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/87a0726d-967a-4965-acee-be0447ae06dd)
+![SIEM_Configuration_4](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/611003e3-1a80-47f5-aa8a-260a7bf9faf0)
+![SIEM_Configuration_5](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/c6579370-fae5-4221-ab76-ef302c67ccf5)
 
 
 ## Results
