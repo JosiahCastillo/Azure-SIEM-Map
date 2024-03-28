@@ -1,4 +1,4 @@
-# Azure-SIEM-Map (Detailed Steps Coming soon)
+# Azure-SIEM-Map (Asset descriptions coming soon)
 
 ## Objective
 
