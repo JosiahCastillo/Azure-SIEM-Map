@@ -49,5 +49,9 @@ To extract the custom logs from our honeypot VM we will need to create a custom 
 To visualize our attack data on a world map we will be using the built-in map functionality in Azure's SIEM tool, Azure Sentinel. To accomplish this task, we will need to connect our Log Analytics Workspace to Azure Sentinel and use Kusto Query Language (KQL) to parse custom fields. Once parsed, we can configure the Sentinel Workbook to vizualize location data according to whatever fields we choose to extract.
 
 ## Results
+After some time we should be able to see failed RDP attempts logged on our world map. The following are results from my own implementation.
+![Results_1](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/f372fa72-cbd3-4490-aa17-29fd98a7642e)
+![Results_2](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/236a0f5b-27d4-4a8c-aca6-b1a6a6f68f2a)
+
 
 
