@@ -54,7 +54,7 @@ In this menu, I removed all prexisting outbound rules and entered a rule named "
 
 ![Deploying_the_Honeypot_6](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/e18e8d1e-6eae-42e2-99e6-2539a8abe8a9)
 
-Everything else in the image should remain the same, so I'll review and create. This should get my honeypot VM up and running.
+After configuring the NSG, I make sure to check the field that deletes the allocated public IP and NIC when the VM is deleted. Everything else in the image should remain the same, so I'll review and create. This should get my honeypot VM up and running.
 
 ### Step 2: Creating a Log Analytics Workspace
 The Log Analytics Workspace allows us to query logs from any VMs we connect to it, and have them presented to us in an organized form on the Azure platform. Later, we can use this workspace to feed logs into our Security Information and Event Management (SIEM) system by querying custom tables constructed from these logs. 
