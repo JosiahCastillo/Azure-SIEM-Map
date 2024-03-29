@@ -38,14 +38,20 @@ To deploy my resources within my Azure subscription, I'll need to create a resou
 
 ![Deploying_the_Honeypot_2](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/ae69c940-5860-43d4-8451-bd69b47e4eeb)
 
-Next, I entered the name for my VM and select the region I'll be deploying in. This region is important, because I'll be using it for other services. I also made sure my region had the "Windows 10 Pro" image available as I've shown in the image above. Regions can vary on availability so this can come into play later on when selecting storage volumes.
+Next, I entered the name for my VM, Honeypot, and selected the region I'll be deploying in, East US. The region is important, because I'll be using it for other services. I also made sure my region had the "Windows 10 Pro" image available as I've shown in the image above. Regions can vary on availability so this can come into play later on when selecting storage volumes.
 
 ![Deploying_the_Honeypot_3](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/6dde6012-1ef9-4192-aa87-81e73cfcd777)
 
-
+When selecting size, I went with a "Standard_B1s" size since it was free services eligible. At this point I also determined the Administrator account's username and password, which I'll be using later to RDP into the honeypot. 
 
 ![Deploying_the_Honeypot_4](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/56cbef0f-d74e-465e-a795-14e85e00f6c5)
+
+I'll then move towards the "Public inbound ports" field and make sure "Allow selected ports" is selected. The "Select inbound ports" field should be set to RDP so we can remotely log into the VM later.  After selecting the Licensing field, I move on to networking settings.
+
 ![Deploying_the_Honeypot_5](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/dca734b4-0204-41f7-b2fb-6efad659a7d3)
+
+
+
 ![Deploying_the_Honeypot_6](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/e18e8d1e-6eae-42e2-99e6-2539a8abe8a9)
 
 ### Step 2: Creating a Log Analytics Workspace
