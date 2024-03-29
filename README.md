@@ -67,11 +67,13 @@ In this menu, I made sure the "HoneypotLab" resrouce group I created is selected
 
 ![Creating_a_Log_Analytics_Workspace_2](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/51b71020-e214-4260-91af-c405a9ccab2b)
 
-After creating the honeypot LAW, I needed to connect it to my honeypot VM. This is essentially what will allow logs to be queried from the VM and will eventually enable me to feed the tables resulting from my queries to an Azure Sentinel Workbook.
+After creating the honeypot LAW, I needed to connect it to my honeypot VM. This is essentially what will allow logs to be queried from the VM after its log collection policy is activated via the Microsoft Defender for Cloud service. This will eventually enable me to feed the tables containing the custom logs to an Azure Sentinel workbook.
 
 
 ### Step 3: Enabling Log Retrieval
 In order for us to retrieve logs from out honeypot VM, we will need to enable this event collection feature through Microsoft Defender. This will require us to activate Microsoft Defender on our Azure subscription and enable the Server plan. This will give us the option to enable us to store all Windows security event data from our honeypot in our Log Analytics Workspace.
+
+Firstly, I navigated to Microsoft Defender for Cloud, enabled it in my Azure subscription, then navigated to the Environment settings menu you see here.
 
 ![Enabling_Log_Retrieval_1](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/ca28d642-5d62-4e20-bfe9-f2741d880036)
 ![Enabling_Log_Retrieval_2](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/5fce1746-dbc6-4bd0-a06c-ba0c7bde0e5d)
