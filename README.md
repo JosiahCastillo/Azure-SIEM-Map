@@ -30,14 +30,20 @@ The purpose of this lab is to deploy a honeypot in the Microsoft Azure cloudspac
 ### Step 1: Deploying the Honeypot
 To deploy a honeypot, we will need to deploy a virtual machine (VM) in an Azure Resource Group and take the first step toward making it accessible from all over the internet. We will accomplish this by adding custom rules to our network security group (NSG), which will allow all network traffic to pass through the NSG to the VM.
 
-Firstly, we'll need to navigate to the Virtual Machines service and create a virtual machine. You should be greeted with this window.
+Firstly, I'll need to navigate to the Virtual Machines service and create a virtual machine.
 
 ![Deploying_the_Honeypot_1](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/f2ad3a84-c01b-450a-9227-68d38cb24f23)
 
-To deploy our resources within our Azure subscription, we'll need to create a resource group. We can do this by navigating to the "Resource group" field located under "Subscription". Select "Create new" and enter a name for your resource group. In my case, I named my resource group HoneypotLab.
+To deploy my resources within my Azure subscription, I'll need to create a resource group. I did this by navigating to the "Resource group" field located under "Subscription". In my case, I named my resource group HoneypotLab, and I'll be using this resource group for the rest of the services deployed for this lab.
 
 ![Deploying_the_Honeypot_2](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/ae69c940-5860-43d4-8451-bd69b47e4eeb)
+
+Next, I entered the name for my VM and select the region I'll be deploying in. This region is important, because I'll be using it for other services. I also made sure my region had the "Windows 10 Pro" image available as I've shown in the image above. Regions can vary on availability so this can come into play later on when selecting storage volumes.
+
 ![Deploying_the_Honeypot_3](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/6dde6012-1ef9-4192-aa87-81e73cfcd777)
+
+
+
 ![Deploying_the_Honeypot_4](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/56cbef0f-d74e-465e-a795-14e85e00f6c5)
 ![Deploying_the_Honeypot_5](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/dca734b4-0204-41f7-b2fb-6efad659a7d3)
 ![Deploying_the_Honeypot_6](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/e18e8d1e-6eae-42e2-99e6-2539a8abe8a9)
