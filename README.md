@@ -81,7 +81,7 @@ In this menu you can also see the LAW I created listed undeneath my Azure subscr
 
 ![Enabling_Log_Retrieval_2](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/5fce1746-dbc6-4bd0-a06c-ba0c7bde0e5d)
 
-
+After selecting Honeypot-Law from the dropdown, I set the Servers plan to On, and save my settings. This should lock in the Foundational CSPM plan to On, and since I do not need any services for SQL servers, I left that policy Off.
 
 ![Enabling_Log_Retrieval_3](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/17ef1753-aafe-43e2-a51d-1f24e1390668)
 
