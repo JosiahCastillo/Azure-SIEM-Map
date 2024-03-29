@@ -76,8 +76,16 @@ In order for us to retrieve logs from out honeypot VM, we will need to enable th
 Firstly, I navigated to Microsoft Defender for Cloud, enabled it in my Azure subscription, then navigated to the Environment settings menu you see here.
 
 ![Enabling_Log_Retrieval_1](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/ca28d642-5d62-4e20-bfe9-f2741d880036)
+
+In this menu you can also see the LAW I created listed undeneath my Azure subscription. Currently I have 0 plans active in my subscription and my LAW. Since the LAW is connected to my VM from the last section, I should be able to activate a Server Defender Plan once I select Honeypot-Law from the Environment settings dropdown.
+
 ![Enabling_Log_Retrieval_2](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/5fce1746-dbc6-4bd0-a06c-ba0c7bde0e5d)
+
+
+
 ![Enabling_Log_Retrieval_3](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/17ef1753-aafe-43e2-a51d-1f24e1390668)
+
+
 
 
 ### Step 4: Accessing the Honeypot
