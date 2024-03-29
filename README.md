@@ -67,7 +67,7 @@ In this menu, I made sure the "HoneypotLab" resrouce group I created is selected
 
 ![Creating_a_Log_Analytics_Workspace_2](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/51b71020-e214-4260-91af-c405a9ccab2b)
 
-
+After creating the honeypot LAW, I needed to connect it to my honeypot VM. This is essentially what will allow logs to be queried from the VM and will eventually enable me to feed the tables resulting from my queries to an Azure Sentinel Workbook.
 
 
 ### Step 3: Enabling Log Retrieval
