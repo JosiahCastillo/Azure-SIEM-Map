@@ -85,7 +85,7 @@ After selecting Honeypot-Law from the dropdown, I set the Servers plan to On, an
 
 ![Enabling_Log_Retrieval_3](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/17ef1753-aafe-43e2-a51d-1f24e1390668)
 
-
+Now that server policies are enabled, I navigate to Data collection settings. By selecting "All Events", this allows for all Windows security events and VM data to be stored in my LAWs with the server policy enabled. Since I will be generating my custom logs from the Windows Event Viewer security logs and extracting them to a custom table in my LAW, this is a necessary feature to enable.
 
 
 ### Step 4: Accessing the Honeypot
