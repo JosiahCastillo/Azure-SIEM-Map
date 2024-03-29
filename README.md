@@ -59,8 +59,15 @@ After configuring the NSG, I make sure to check the field that deletes the alloc
 ### Step 2: Creating a Log Analytics Workspace
 The Log Analytics Workspace allows us to query logs from any VMs we connect to it, and have them presented to us in an organized form on the Azure platform. Later, we can use this workspace to feed logs into our Security Information and Event Management (SIEM) system by querying custom tables constructed from these logs. 
 
+This is the Log Analytics Workspace console after selecting "Create Log Analytics Workspace".
+
 ![Creating_a_Log_Analytics_Workspace_1](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/142ee21d-3d06-4449-910f-c75620f0b4e6)
+
+In this menu, I made sure the "HoneypotLab" resrouce group I created is selected in the "Resource group" field. Afterwards I simply named the LAW. In my case, I code something simple like "Honeypot-Law". I also made sure the "Region" field had the "East US" region selected since that was the region where I deployed my honeypot VM.
+
 ![Creating_a_Log_Analytics_Workspace_2](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/51b71020-e214-4260-91af-c405a9ccab2b)
+
+
 
 
 ### Step 3: Enabling Log Retrieval
