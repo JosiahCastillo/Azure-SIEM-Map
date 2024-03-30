@@ -107,7 +107,13 @@ Once inside the VM, I'll need to run through some basic setup involving privacy 
 To gather a bit more insight as to what kind of logs I'll need to be filtering for, I navigate to the Windows Event Viewer, and go to "Windows Logs" and "Security". After some time, I'm able to see a list off all logged security events each with their respective Event IDs and metadata. Here, I determine the Event ID associated with failed RDP attempts is 4625. Later, I'll be using this Event ID to filter for these specific logs through a PowerShell script.
 
 ![Accessing_the_Honeypot_4](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/02da5a20-92a9-4969-b2d3-9153c73be7e4)
+
+Before this, I test to see if my honeypot is properly exposed to the internet by attempting to ping the VM from my own local machine. Initially, my pings were unsuccessful likely due to the Windows Defender Firewall blocking inbound ICMP requests.
+
 ![Accessing_the_Honeypot_5](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/d612cddf-3355-4284-9588-e603b6d79c22)
+
+
+
 ![Accessing_the_Honeypot_6](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/c757e51c-26f7-4c08-b4cc-d81d65ffc817)
 
 ### Step 5: Log Generation
