@@ -92,8 +92,16 @@ Now that server policies are enabled, I navigate to Data collection settings. By
 ### Step 4: Accessing the Honeypot
 To access our honeypot we will need to use the Remote Desktop Protocol (RDP) to remotely login to our deployed VM. After we gain access to the machine, we will become familiar with Windows Event Manager security logs, and ensure our VM can be pinged by remote scans across the internet.
 
+For this stage in the lab I'll need to grab my VM's public ip address. 
+
 ![Accessing_the_Honeypot_1](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/e8d628b5-ec8a-456c-ac89-94359fb7098d)
+
+To do this, I navigated to the Virtual Machine service and selected my honeypot. Then, on the right side under "Essentials", I copied the honeypot's public IP.
+
 ![Accessing_the_Honeypot_2](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/0d61b209-ccb2-429c-b6f5-66731528da16)
+
+
+
 ![Accessing_the_Honeypot_3](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/d8bd7f08-1d65-40b5-b7e9-81c104850edf)
 ![Accessing_the_Honeypot_4](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/02da5a20-92a9-4969-b2d3-9153c73be7e4)
 ![Accessing_the_Honeypot_5](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/d612cddf-3355-4284-9588-e603b6d79c22)
