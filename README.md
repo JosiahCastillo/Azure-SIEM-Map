@@ -96,7 +96,7 @@ For this stage in the lab I'll need to grab my VM's public ip address.
 
 ![Accessing_the_Honeypot_1](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/e8d628b5-ec8a-456c-ac89-94359fb7098d)
 
-To do this, I navigated to the Virtual Machine service and selected my honeypot. Then, on the right side under "Essentials", I copied the honeypot's public IP.
+To do this, I navigated to the Virtual Machine service and selected my honeypot. Then, on the right side under "Essentials", I copied the honeypot's public IP. Next, I use the IP to RDP into my honeypot to I can start exposing the VM to the internet. When loggin in, I also had to use my admin credentials from step 1 part 3.
 
 ![Accessing_the_Honeypot_2](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/0d61b209-ccb2-429c-b6f5-66731528da16)
 
