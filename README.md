@@ -100,7 +100,7 @@ To do this, I navigated to the Virtual Machine service and selected my honeypot.
 
 ![Accessing_the_Honeypot_2](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/0d61b209-ccb2-429c-b6f5-66731528da16)
 
-
+Once inside the VM, I'll need to run through some basic setup involving privacy settings and connectivity. I don't login to any accounts or enable any services on this machine since its unnecesary for the lab. When the desktop loads, I also allow my machine to be discoverable for all devices on the network, but this isn't really necessary.
 
 ![Accessing_the_Honeypot_3](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/d8bd7f08-1d65-40b5-b7e9-81c104850edf)
 ![Accessing_the_Honeypot_4](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/02da5a20-92a9-4969-b2d3-9153c73be7e4)
