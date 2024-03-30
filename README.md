@@ -116,7 +116,7 @@ To solve this, I disabled the firewall even though I could've adjusted specific 
 
 ![Accessing_the_Honeypot_6](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/c757e51c-26f7-4c08-b4cc-d81d65ffc817)
 
-
+Once the Windows Defender Firewall was disabled, I was able to discover my honeypot. If this hadn't worked, I would likely need to check the rules on my Network Security Group. Now that my VM is discoverable, I move on to generating custom logs.
 
 ### Step 5: Log Generation
 We will need to generate logs containing geolocation information in order for attacks to be plotted on a world map. To accomplish this, we will be feeding the IP addresses found in the Windows Event Manager security logs to an IP Geolocation API. This will return the longitude and latitude associated with the IP. We will then use this along with security logs to generate custom logs.
