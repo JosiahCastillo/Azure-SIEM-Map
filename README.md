@@ -112,9 +112,11 @@ Before this, I test to see if my honeypot is properly exposed to the internet by
 
 ![Accessing_the_Honeypot_5](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/d612cddf-3355-4284-9588-e603b6d79c22)
 
-
+To solve this, I disabled the firewall even though I could've adjusted specific inbound rules for ICMP IPv4 and IPv6. I did this by setting the "Firewall state" field to "Off" for Domain, Private, and Public profiles. While this obviously isn't best practice, for the purposes of this lab, it should serve as a sufficient solution. If I ever do revisit this project, I will likely attempt to log other types of intrusion attempts and implement more refined traffic filtering.
 
 ![Accessing_the_Honeypot_6](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/c757e51c-26f7-4c08-b4cc-d81d65ffc817)
+
+
 
 ### Step 5: Log Generation
 We will need to generate logs containing geolocation information in order for attacks to be plotted on a world map. To accomplish this, we will be feeding the IP addresses found in the Windows Event Manager security logs to an IP Geolocation API. This will return the longitude and latitude associated with the IP. We will then use this along with security logs to generate custom logs.
