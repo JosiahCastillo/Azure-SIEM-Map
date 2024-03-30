@@ -103,6 +103,9 @@ To do this, I navigated to the Virtual Machine service and selected my honeypot.
 Once inside the VM, I'll need to run through some basic setup involving privacy settings and connectivity. I don't login to any accounts or enable any services on this machine since its unnecesary for the lab. When the desktop loads, I also allow my machine to be discoverable for all devices on the network, but this isn't really necessary.
 
 ![Accessing_the_Honeypot_3](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/d8bd7f08-1d65-40b5-b7e9-81c104850edf)
+
+To gather a bit more insight as to what kind of logs I'll need to be filtering for, I navigate to the Windows Event Viewer, and go to "Windows Logs" and "Security". After some time, I'm able to see a list off all logged security events each with their respective Event IDs and metadata. Here, I determine the Event ID associated with failed RDP attempts is 4625. Later, I'll be using this Event ID to filter for these specific logs through a PowerShell script.
+
 ![Accessing_the_Honeypot_4](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/02da5a20-92a9-4969-b2d3-9153c73be7e4)
 ![Accessing_the_Honeypot_5](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/d612cddf-3355-4284-9588-e603b6d79c22)
 ![Accessing_the_Honeypot_6](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/c757e51c-26f7-4c08-b4cc-d81d65ffc817)
