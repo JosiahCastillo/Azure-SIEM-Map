@@ -128,6 +128,9 @@ I used PowerShell to generate custom logs and the file they're contained in. The
 To use the PowerShell script, I used the run menu (Windows + R) to open the PowerShell ISE and opened the script. Firstly, the code checks the Windows Event Viewer security logs and filters them according to the 4625 Event ID, which refers to failed RDP authentication attempts. Next, the script gathers the IP addresses from these logs. The code then uses an API key for the Ipgeolocation API to gather geolocation information after providing an IP addresses it extracted from the security logs. Afterwards, it creates a log file called "failed_rdp.log" and enters values containing the geolocation data returned from the API along with some other custom fields.
 
 ![Log_Generation_2](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/c44ebf45-3fa2-46e4-8515-6f71bad54ae9)
+
+In order to use the Ipgeolocation API, I registered an account and navigated to the dashboard as shown above. As mentioned earlier, the script used in this lab uses an API key which is attainable at the Ipgeolocation dashboard. Once I copied and pasted my API key, I was able to run the script and generate custom logs based off of previous intrusion attempts.
+
 ![Log_Generation_3](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/607f9cc3-13f8-43dc-8059-4f0a07b7a803)
 
 
