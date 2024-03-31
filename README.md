@@ -133,6 +133,8 @@ In order to use the Ipgeolocation API, I registered an account and navigated to 
 
 ![Log_Generation_3](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/607f9cc3-13f8-43dc-8059-4f0a07b7a803)
 
+Once the script is running, it prints out the new custom log entries to the console, and stores a copy of the log entries into the "failed_rdp.log" file. For the rest of the lab, I left this script running so it can gather live intrusion data as it comes in. From this point on, I didn't need to access the VM, so I ended my RDP session and changed the administrator credentials to something reasonably difficult to brute force. The credentials were already fairly strong, but this is just an extra step I took.
+
 
 ### Step 6: Log Extraction
 To extract the custom logs from our honeypot VM we will need to create a custom MMA table in our Log Analytics Workspace. We will then need to provide a sample log for the workspace to parse along with the original log's pathway on our honeypot VM in order to populate the table. Afterwards, we should be able to query our custom logs freely.
