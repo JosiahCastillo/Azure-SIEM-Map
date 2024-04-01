@@ -189,6 +189,8 @@ After providing the query, I set the "Visualization" field to "Map" and was able
 
 ![SIEM_Configuration_5](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/c6579370-fae5-4221-ab76-ef302c67ccf5)
 
+For better labeling I made sure to set the color settings according to "event_count" and set the "Metric Label" for the Metric Settings to "country". This way the results are displayed according to country and not another geolocation factor or event count. The settings can be seen above.
+
 
 ## Results
 After some time we should be able to see failed RDP attempts logged on our world map. The following are results from my own implementation.
