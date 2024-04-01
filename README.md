@@ -151,11 +151,19 @@ After providing a sample log file, I set the record delimiter to New line so the
 
 ![Log_Extraction_3](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/d4f2a249-6aa9-471c-907a-a176529883ff)
 
-
+The next stage in the process requires providing a path to the log file located on the VM itself. To do this, I went back to my active RDP session and located the "failed_rdp.log" file. Next, I opened the properties window and copied the path provided under the "Security" tab. This could've also been done by copying the path located in the PowerShell script and adding the file name.
 
 ![Log_Extraction_4](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/6be66310-8d6e-494c-86fd-8b832d725d6d)
+
+Once the path is provided in the "Path" field, I made sure Windows was selected under the "Type" field so the LAW would understand I'm providing a Windows filepath.
+
 ![Log_Extraction_5](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/9f8b80cc-7546-4c87-9b56-f35a848fdbed)
+
+
+
 ![Log_Extraction_6](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/18d308fb-101c-4136-8434-935c7e5b264f)
+
+
 
 
 ### Step 7: SIEM Configuaton
