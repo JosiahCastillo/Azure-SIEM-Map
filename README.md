@@ -121,7 +121,7 @@ Once the Windows Defender Firewall was disabled, I was able to discover my honey
 ### Step 5: Log Generation
 We will need to generate logs containing geolocation information in order for attacks to be plotted on a world map. To accomplish this, we will be feeding the IP addresses found in the Windows Event Manager security logs to an IP Geolocation API. This will return the longitude and latitude associated with the IP. We will then use this along with security logs to generate custom logs.
 
-I used PowerShell to generate custom logs and the file they're contained in. The script used in this lab can be found in the Scripts and Code directory in this repository.
+I used PowerShell to generate custom logs and the file they're contained in. The script used in this lab can be found in the Scripts and Queries directory in this repository.
 
 ![Log_Generation_1](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/e9f7072d-028f-4fa5-883d-9f2beafefbdd)
 
