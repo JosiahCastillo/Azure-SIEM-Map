@@ -163,7 +163,7 @@ Lastly, I provided a name for my custom log. In this case I named it "FAILED_RDP
 
 ![Log_Extraction_6](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/18d308fb-101c-4136-8434-935c7e5b264f)
 
-
+Lastly, I provided a name for my custom log. In this case I named it "FAILED_RDP_LOGS", which means the final log name will be "FAILED_RDP_LOGS_CL" since the "_CL" extension will automatically be appended to custom logs. By querying my custom table, I can print all log entries from whatever timeframe I designate. The output was as shown above.
 
 
 ### Step 7: SIEM Configuaton
