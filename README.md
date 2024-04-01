@@ -159,7 +159,7 @@ Once the path is provided in the "Path" field, I made sure Windows was selected 
 
 ![Log_Extraction_5](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/9f8b80cc-7546-4c87-9b56-f35a848fdbed)
 
-
+Lastly, I provided a name for my custom log. In this case I named it "FAILED_RDP_LOGS", which means the final log name will be "FAILED_RDP_LOGS_CL" since the "_CL" extension will automatically be appended to custom logs.
 
 ![Log_Extraction_6](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/18d308fb-101c-4136-8434-935c7e5b264f)
 
