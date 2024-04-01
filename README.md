@@ -179,15 +179,18 @@ After navigating to the Azure Sentinel service, I connected the service to the H
 
 After removing the query, my workbook looked like the image above. Next I simply selected "Add query" option as shown above.
 
-![SIEM_Configuration_3](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/87a0726d-967a-4965-acee-be0447ae06dd)
+![SIEM_Configuration_3](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/9fe8410e-5f0e-4f42-85c2-8883afb91798)
+
 
 I was given a window to provide a Kusto Query Language (KQL) query. At this point I a KQL query that extracted the fields from my custom log and grouped the resulting event counts according to longitude, latitude, and country. The query can be found in the Scripts and Queries folder in this repository.
 
-![SIEM_Configuration_4](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/611003e3-1a80-47f5-aa8a-260a7bf9faf0)
+![SIEM_Configuration_4](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/64547972-11ad-44aa-bbf7-7077ad9d78b0)
+
 
 After providing the query, I set the "Visualization" field to "Map" and was able to generate a world map with a bubble displaying 3 intrusion attempts in the united states. To encourage better plotting, I opened "Map Settings" and made sure the "Location info using" field was set to "Latitude/Longitude" and the "Latitude" and "Longitude" fields were using the correct variables. The settings can be seen above.
 
-![SIEM_Configuration_5](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/c6579370-fae5-4221-ab76-ef302c67ccf5)
+![SIEM_Configuration_5](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/181255cb-3048-41b6-9712-9dba676afcb5)
+
 
 For better labeling I made sure to set the color settings according to "event_count" and set the "Metric Label" for the Metric Settings to "country". This way the results are displayed according to country and not another geolocation factor or event count. The settings can be seen above.
 
