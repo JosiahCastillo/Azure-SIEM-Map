@@ -196,5 +196,9 @@ For better labeling I made sure to set the color settings according to "event_co
 After some time we should be able to see failed RDP attempts logged on our world map. The following are results from my own implementation.
 
 ![Results_1](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/f372fa72-cbd3-4490-aa17-29fd98a7642e)
+
+After a day I saw a couple dozen attempts mostly coming in from the United States and China. An improvement I could make to the lab is the handling of bubble overlap by providing a more lenient categorization for intrusion event locations.
+
 ![Results_2](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/236a0f5b-27d4-4a8c-aca6-b1a6a6f68f2a)
 
+After another day I was able to log 1.4 thousand intrusion attempts from Russia.
