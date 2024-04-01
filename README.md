@@ -155,7 +155,7 @@ The next stage in the process requires providing a path to the log file located 
 
 ![Log_Extraction_4](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/6be66310-8d6e-494c-86fd-8b832d725d6d)
 
-Once the path is provided in the "Path" field, I made sure Windows was selected under the "Type" field so the LAW would understand I'm providing a Windows filepath.
+Once the path is provided in the "Path" field, I made sure Windows was selected under the "Type" field so the LAW would understand I'm providing a Windows filepath. At this point I won't need to enter the VM again so I exit my RDP session but leave the VM and PowerShell script running so it can continue to log inttrusion attempts.
 
 ![Log_Extraction_5](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/9f8b80cc-7546-4c87-9b56-f35a848fdbed)
 
