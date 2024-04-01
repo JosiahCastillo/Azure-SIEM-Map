@@ -147,9 +147,12 @@ To extract the logs stored on the honeypot VM, I created a custom table in the L
 
 ![Log_Extraction_2](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/a9cb7d3e-d871-41d1-98eb-860265ff0f97)
 
-
+After providing a sample log file, I set the record delimiter to New line so the records are properly isolated. The fields should present themselves as shown above if done properly.
 
 ![Log_Extraction_3](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/d4f2a249-6aa9-471c-907a-a176529883ff)
+
+
+
 ![Log_Extraction_4](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/6be66310-8d6e-494c-86fd-8b832d725d6d)
 ![Log_Extraction_5](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/9f8b80cc-7546-4c87-9b56-f35a848fdbed)
 ![Log_Extraction_6](https://github.com/JosiahCastillo/Azure-SIEM-Map/assets/47875741/18d308fb-101c-4136-8434-935c7e5b264f)
