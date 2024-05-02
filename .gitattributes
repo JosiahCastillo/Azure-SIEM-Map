@@ -1,2 +1,2 @@
 *.kql linguist-detectable=true
-*.kql linguist-language=Kusto
+*.kql linguist-language=kusto
